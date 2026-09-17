@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tabela-compras {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-compras th, .tabela-compras td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabela-compras thead {
+    background-color: #000000;
+    color: #fff;
+}
+
+.tabela-compras tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabela-compras tbody tr:hover {
+    background-color: #f5f4e8;
+}
+
+.tabela-compras tfoot td {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
